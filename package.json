@@ -1,0 +1,25 @@
+{
+  "name": "playwright_rubberstack_bdd",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env ENV=prod FORCE_COLOR=0 cucumber-js"
+  },
+  "dependencies": {
+    "browser": "^0.2.6",
+    "dotenv": "^17.2.1",
+    "playwright": "^1.54.2"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.1.0",
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.1.0",
+    "cross-env": "^10.0.0",
+    "multiple-cucumber-html-reporter": "^3.9.3",
+    "ts-node": "^10.9.2"
+  }
+}
