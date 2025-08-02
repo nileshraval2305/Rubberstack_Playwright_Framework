@@ -26,10 +26,14 @@ Screenshots of failure
 Setup:
 
 Clone or download the project
+
 Extract and open in the VS-Code
+
 npm i to install the dependencies
+
 npx playwright install to install the browsers
-npm run test to execute the test
+
+**npm run test to execute the test**
 
 **Folder structure**
 1. src\test\features -> write your features here
